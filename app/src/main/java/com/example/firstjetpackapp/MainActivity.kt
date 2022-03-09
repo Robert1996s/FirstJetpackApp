@@ -38,7 +38,7 @@ fun Greeting(name: String, robert: String) {
 @Composable
 fun myButton (name: String) {
     Button(
-        onClick = { println("Hello") },
+        onClick = { println("Hello World") },
 
         contentPadding = PaddingValues(
             start = 20.dp,
@@ -63,5 +63,5 @@ fun DefaultPreview() {
 
 @Composable
 fun printText() {
-    println("Hello")
+    println("Hello World")
 }
